@@ -1,0 +1,236 @@
+* {
+	margin: 0px auto;
+	list-style: none;
+}
+
+.line {
+	width: 100%;
+	height: 4px;
+	background-color: #f06523;
+}
+
+.line div {
+	height: 4px;
+	width: 980px;
+	margin: auto;
+	background-color: #124270;
+}
+
+.header {
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.header_box {
+	width: 980px;
+	height: 100px;
+	margin: auto;
+}
+
+.header_logo {
+	width: 232px;
+	height: 98px;
+	float: left;
+}
+
+.header_a {
+	width: 360px;
+	height: 100px;
+	line-height: 100px;
+	float: right;
+	font-size: 12px;
+}
+
+.header_a a {
+	color: #8b8b8b;
+	text-decoration: none;
+}
+
+.header_a span {
+	color: #8b8b8b;
+	padding: 0 8px 0px 8px;
+	display: inline-block;
+
+}
+
+.nav {
+	width: 980px;
+	line-height: 50px;
+	height: 50px;
+	margin: auto;
+	/* 	border: #124270 1px solid; */
+}
+
+.nav li {
+	float: left;
+	font-size: 14px;
+	padding: 0px 15px 0px 15px;
+}
+
+.nav li a {
+	color: #404040;
+	text-decoration: none;
+}
+
+.nav li a:hover {
+	color: #f06522;
+}
+
+.banner {
+	width: 100%;
+	height: 211px;
+	background-image: url(../img/腾讯会议图片_20220318111656_02.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.content {
+	width: 960px;
+	height: 1200px;
+	margin: auto;
+}
+
+.content .content_left {
+	width: 245px;
+	height: 380px;
+	float: left;
+	border-top: #f16623 5px solid;
+	margin-top: -5px;
+	box-shadow:1px 1px 3px rgba(0,0,0,0.2) ;
+}
+
+.content .content_right {
+	width: 674px;
+	height: 1200px;
+	float: right;
+}
+
+.content .content_left li {
+	height: 73px;
+	background-image: url();
+	line-height: 73px;
+	text-align: center;
+}
+.content .content_left li:nth-child(1) label:nth-child(1){
+	font-size: 16px;
+	font-weight: 900;
+	color: #252525;
+}
+.content .content_left li:nth-child(2) label:nth-child(2){
+	font-size: 12px;
+	color: #757575;
+}
+.content .content_left li+li {
+	width: 202px;
+	height: 32px;
+	border-top: 1px solid #f2f2f2;
+	background:none;
+	line-height: 32px;
+	text-align:left;
+	padding-left: 43px;
+	font-size: 12px;
+	background-image: url(../img/bg02.jpg);
+}
+.content .content_left li+li:hover{
+	background-image:url(../img/bg01_03.jpg);
+	color: white;
+}
+.bread{
+	height:38px ;
+	width:100% ;
+	margin-top: 36px;
+	padding-top: 6px;
+	border-bottom: 1px solid #bbb;}
+.bread div{
+	float: right;
+}
+.bread .bread_text{
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+	color: #545454;
+}
+.bread .bread_icon{
+	width: 20px;
+	height: 20px;
+	background: url(../img/logo_1.gif) no-repeat;
+	background-position: 0 4px;
+}
+.content_right .title{
+	height: 30px;
+	width: 100%;
+	background-image: url(../img/bg03_03.gif);
+	margin-top: 40px;
+}
+.content_right .title li:nth-child(1){
+	width: 156px;
+	height: 30px;
+	float: left;
+}
+.content_right .title li:nth-child(2){
+	width: 50px;
+	height: 30px;
+	float:right;
+	line-height: 30px;
+	font-size: 10px;
+	color: #9f9f9f;
+}
+.neirong{
+	height: 170px;
+	width: 100%;
+	padding: 15px 15px 15px 15px;
+}
+.neirong li{
+	font-size: 12px;
+	font-weight: 800;
+	padding: 0px 0px 8px 0px;
+}
+.neirong span{
+	padding: 0px 0px 0px 10px;
+	font-size: 12px;
+	color: #717171;
+}
+#wenzi{
+	width: 650px;
+	height: 180px;
+	border-top: 1px solid #e0e0e0;
+}
+#wenzi_left{
+	width: 123px;
+	height: 123px;
+	border: 2px solid #e1e1e1;
+	float: left;
+	margin: 15px 0px 0px 0px;
+}
+#wenzi_right{
+	width: 520px;
+	height: 123px;
+	border-left: 2px dotted #e0e0e0;
+	float: right;
+	margin: 15px 0px 0px 0px;
+}
+#wenzi_right p{
+	font-size: 11px;
+	padding: 5px 25px 0px 10px;
+	line-height: 23px;
+}
+.title_1{
+	height: 30px;
+	width: 100%;
+	background-image: url(../img/bg03_03.gif);
+	margin-top: 40px;
+	font-size: 12px;
+	line-height: 30px;
+	padding: 0px 0px 0px 15px;
+	font-weight: 900;
+}
+.foot{
+	height: 330px;
+	width: 100%;
+}
+.foot p{
+	font-size: 11px;
+	padding: 20px 0px 0px 20px;
+	line-height: 20px;
+}
